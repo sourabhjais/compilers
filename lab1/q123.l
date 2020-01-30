@@ -9,7 +9,7 @@ int positive_fraction=0;
 int negative_fraction=0;
 int diff_character=-1;
 %}
-keyword  int|char|bool|float|void|for|do|while|if|else|return|void
+
 %%
 [aeiouAEIOU]	{vowels++;}
 [a-zA-Z]	{consonants++;}
